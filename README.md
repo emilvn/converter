@@ -1,6 +1,6 @@
 # Unit converter assignment
 
-This app was developed and tested in Windows 11 on an Amd chip with the Zen 2 architecture.
+This app was developed and tested in Windows 11 on an x86 chip.
 
 To build and run with gcc run
 ```
