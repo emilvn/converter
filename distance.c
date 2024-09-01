@@ -58,4 +58,5 @@ float get_distance_conversion(char from, char to, float value)
     default:
         break;
     }
+    return 0.0;
 }

@@ -18,8 +18,8 @@ void display_menu(char title[], const char *opts[], int n)
 
 void display_main_menu()
 {
-    const char *opts[] = {"distance", "weight", "energy", "temperature", "close"};
-    display_menu("Select unit type", opts, 5);
+    const char *opts[] = {"distance", "time", "energy", "close"};
+    display_menu("Select unit type", opts, 4);
 }
 
 

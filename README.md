@@ -1,11 +1,16 @@
 # Unit converter assignment
 
-To build run
+To build and run with gcc run
 ```
 gcc convert.c -o convert
+
+./convert.exe
 ```
 
-to run, run
+or you can use clang
+
 ```
-./convert.exe
+clang convert.c -o convert
+
+./convert
 ```

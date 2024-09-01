@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 float hartree_to_ev(float hartree)
 {
     return hartree * 27.2107;
@@ -58,4 +56,5 @@ float get_energy_conversion(char from, char to, float value)
     default:
         break;
     }
+    return 0.0;
 }

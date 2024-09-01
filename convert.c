@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include "convert_ui.c"
 #include "distance_ui.c"
-#include "temperature.c"
 #include "energy_ui.c"
+#include "time_ui.c"
 
 int main()
 {
@@ -18,13 +18,12 @@ int main()
         case 'd':
             distance_main();
             break;
-        case 't':
-            temperature_main();
-            break;
         case 'e':
             energy_main();
             break;
-        //TODO IMPLEMENT OTHERS
+        case 't':
+            time_main();
+            break;
         default:
             break;
         }
